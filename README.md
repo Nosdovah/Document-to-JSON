@@ -4,6 +4,8 @@ DocuJSON is a sleek, modern web application that converts unstructured text docu
 
 Live Demo: [https://nosdovah.github.io/Document-to-JSON/](https://nosdovah.github.io/Document-to-JSON/)
 
+💡 **Need to convert JSON to a CV/Resume?** Check out [JSON-To-CV](https://nosdovah.github.io/JSON-To-CV/).
+
 ---
 
 ## ✨ Features
