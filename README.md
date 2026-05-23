@@ -37,12 +37,14 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Nosdovah/Document-to-JSON.git
    cd Document-to-JSON
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
@@ -64,12 +66,13 @@ This project is configured for easy deployment to GitHub Pages.
    ```bash
    npm run deploy
    ```
-This will automatically build the production assets and push them to the `gh-pages` branch, making your site live on `https://<your-username>.github.io/Document-to-JSON/`.
+   This will automatically build the production assets and push them to the `gh-pages` branch, making your site live on `https://<your-username>.github.io/Document-to-JSON/`.
 
 ---
 
 ## 💡 How It Works
 
 ### Parsing Logic
+
 1. **Keyword Mode**: If you provide keywords (e.g. `Name`, `Skills`), the app searches for their first occurrence in the document. It sorts them chronologically by their index in the text and segments the text. The value for a keyword starts from the end of the keyword itself to the start of the next keyword.
 2. **Auto-Detect Mode**: If you don't provide any keywords, the parser scans the text line-by-line using a regex matcher (`/^([A-Za-z0-9\s]+)[:\-]\s*(.*)$/`). Lines that match form new keys, and subsequent non-matching lines are appended to the active key.
