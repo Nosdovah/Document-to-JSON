@@ -2,6 +2,7 @@
   "name": "document-to-json",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Nosdovah.github.io/Document-to-JSON/",
   "type": "module",
   "scripts": {
     "dev": "vite",
